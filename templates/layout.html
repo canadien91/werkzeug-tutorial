@@ -1,0 +1,20 @@
+
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <title>{% block title %}{% endblock %}|shortly</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</HEAD>
+<BODY>
+    <div class="box">
+        <h1>
+            <a href="/">shortly</a>
+        </h1>
+        <p class="tagline">
+            Shortly is a URL shortener written with Werkzeug
+        </p>
+        {% block body %}{% endblock %}
+    </div>
+</BODY>
+</HTML>
